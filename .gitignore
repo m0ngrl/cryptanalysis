@@ -1,0 +1,35 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Generated analysis/attack results
+results/
+results_full/
+results_old/
+attack_results/
+
+# Generated combined reports and summaries
+analysis_summary.txt
+attacks_full_combined.txt
+full_attack.log
+
+# Packaging/build output
+build/
+dist/
+*.egg-info/
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+*~
+
+# Assignment ciphertexts - ignore all except our example
+ciphers/*
+!ciphers/Group-1_assign-1_Cipher_1.txt
