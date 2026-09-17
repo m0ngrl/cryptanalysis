@@ -4,6 +4,8 @@ A Python toolkit for analysing and attacking classical ciphers.
 
 The project performs statistical analysis of ciphertexts and provides automated attacks against several classical cipher families. It can process individual ciphertexts or batches of `.txt` files and ranks candidate plaintexts using English-language scoring.
 
+The project stems from a uni cryptography course assessment that asked us to analyse and decrypt other groups encodings with recommended software. Th recommended software was single threaded and eventually drove me nuts. Therefore this cryptanalysis multi-threading program was made to be able to batch process a collection of encoded text files. I hope it serves other students well.
+
 ## Features
 
 ### Cipher analysis
